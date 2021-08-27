@@ -1,0 +1,90 @@
+.box{
+    background-image: url(./dark-ribs.jpg);
+    text-align: center;
+    padding-bottom: 80px;
+    
+}
+h5
+{
+    padding-top: 0;
+    margin-top: 0;
+}
+h6
+{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    background-image:linear-gradient( to right, orange, orangered );
+   color: rgb(255, 136, 0);
+}
+.h1{
+    color: white;
+}
+h5 , .h3,h4
+{
+    color: orange;
+}
+.h3
+{
+    margin-top: 0;
+    padding-bottom: 100px;
+}
+.h1{
+    margin-bottom: 0;
+    padding-top: 50px;
+    font-weight: 10;
+}
+.bold
+{
+    font-weight: 1000;
+}
+h3
+{
+    color: rgb(8, 8, 78);
+    margin-bottom: 0;
+}
+.text
+{
+    text-align: center;
+}
+h4{
+    margin-top: 0;
+}
+.form
+{
+    display: block;
+}
+.input
+{
+    margin: 0;
+} 
+a
+{
+     background-image:linear-gradient( to right, orange, orangered );
+     padding: 10px 20px;
+     font-size:medium;
+     text-decoration: none;
+    color: white;
+}
+
+
+
+@media screen and (min-width:600px)
+{
+
+    .container
+    {
+        display: flex;
+    }
+    .box, .text
+    {
+        width: 50%;
+    }
+    h6
+    {
+        margin-top: 0;
+    }
+
+}
+    
+
+    
